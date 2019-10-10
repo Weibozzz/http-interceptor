@@ -1,0 +1,14 @@
+{
+  "name": "http-interceptor",
+  "version": "1.0.0",
+  "description": "自定义网络请求拦截器,支持微信小程序拦截,ajax拦截,支付宝小程序等等",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}

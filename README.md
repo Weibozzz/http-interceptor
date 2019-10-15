@@ -3,6 +3,23 @@
 
 ## Usage
 
+```bash
+npm install
+npm run build
+```
+
+### CommonJS usage
+
+```js
+const axios = require('./dist/index.js');
+
+```
+### Browser
+
+```js
+<script src="./dist/index.js"></script>
+```
+
 ```js
 const axios = new Axios({
       // defaults 公共请求参数可选
@@ -43,6 +60,10 @@ axios.interceptors.response.use(function (response) {
 ```
 
 ## Example
+
+```bash
+npm start
+```
 
 ```js
 const axios = new Axios({
